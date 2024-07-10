@@ -22,9 +22,9 @@ and the data was split into training and testing sets. Training was conducted, a
 **Evaluation Metrics**
 
 Two models were built: one without feature selection and another with variance thresholding applied. 
-Linear regression models were plotted, and RMSE was calculated to assess model performance.
+Linear regression models were plotted, and coefficient of determination was calculated to assess model performance.
 
 **Conclusion**
 
-The model with feature selection applied demonstrated a lower RMSE compared to the model without feature selection.
+The model with feature selection applied demonstrated a lower R2 compared to the model without feature selection.
 Future improvements could focus on real-time predictive modeling for demand forecasting and optimizing bike allocation strategies.
